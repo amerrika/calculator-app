@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+
+.buttons-wrapper {
+  width: clamp(320px, 80vw, 50rem);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap:  clamp(1.5rem, 2.5vw, 3rem);
+
+  background-color: var(--calculator);
+  padding: 3rem;
+  border-radius: 1rem;
+}

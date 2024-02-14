@@ -1,0 +1,75 @@
+$colors: (
+  "neutral": (
+    "0": transparent,
+    "100": #ffffff,
+    "200": #f5f7fb,
+    "300": #e7eaf4,
+    "400": #c5c9da,
+    "500": #b0b4c5,
+    "600": #777c88,
+    "700": #64748b,
+    "800": #52555d,
+    "900": #0d0e10,
+  ),
+  "theme-1": (
+    "bg": #3b4664,
+    "screen": #181f32,
+    "calculator": #252d44,
+    "btn-standard": #eae3db,
+    "btn-del": #647299,
+    "btn-reset": #647299,
+    "btn-equal": #d13f30,
+  ),
+);
+
+$neutral-100: #ffffff;
+$neutral-200: #f5f7fb;
+$neutral-300: #e7eaf4;
+$neutral-400: #c5c9da;
+$neutral-500: #b0b4c5;
+$neutral-600: #777c88;
+$neutral-700: #64748b;
+$neutral-800: #52555d;
+$neutral-900: #0d0e10;
+
+$theme-1-bg: #3b4664;
+$theme-1-screen: #181f32;
+$theme-1-screen-text: $neutral-100;
+$theme-1-calculator: #252d44;
+$theme-1-btn-standard: #eae3db;
+$theme-1-btn-standard-text: $neutral-900;
+$theme-1-btn-del: #647299;
+$theme-1-btn-reset: #647299;
+$theme-1-btn-equal: #d13f30;
+$theme-1-btn-standard-shadow: #b7a49a;
+$theme-1-btn-del-shadow: #435077;
+$theme-1-btn-reset-shadow: #435077;
+$theme-1-btn-equal-shadow: #9b291d;
+
+$theme-2-bg: #e6e6e6;
+$theme-2-screen: #eeeeee;
+$theme-2-screen-text: $neutral-900;
+$theme-2-calculator: #d3cdcd;
+$theme-2-btn-standard: #e5e4e0;
+$theme-2-btn-standard-text: $neutral-900;
+$theme-2-btn-del: #64b3bc;
+$theme-2-btn-reset: #64b3bc;
+$theme-2-btn-equal: #ff8b38;
+$theme-2-btn-standard-shadow: #b7a49a;
+$theme-2-btn-del-shadow: #435077;
+$theme-2-btn-reset-shadow: #435077;
+$theme-2-btn-equal-shadow: #9b291d;
+
+$theme-3-bg: #17062a;
+$theme-3-screen: #1e0836;
+$theme-3-screen-text: #fadf46;
+$theme-3-calculator: #1e0836;
+$theme-3-btn-standard: #321a4c;
+$theme-3-btn-standard-text: #fadf46;
+$theme-3-btn-del: #872faf;
+$theme-3-btn-reset: #872faf;
+$theme-3-btn-equal: #00decf;
+$theme-3-btn-standard-shadow: #871d9f;
+$theme-3-btn-del-shadow: #be15f2;
+$theme-3-btn-reset-shadow: #be15f2;
+$theme-3-btn-equal-shadow: #6FF9F1;

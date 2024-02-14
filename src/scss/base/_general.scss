@@ -1,0 +1,62 @@
+@use "../abstracts/" as *;
+
+html {
+  &[data-theme="1"] {
+    --background: #{$theme-1-bg};
+    --screen: #{$theme-1-screen};
+    --screen-text-color: #{$theme-1-screen-text};
+    --calculator: #{$theme-1-calculator};
+    --button-standard: #{$theme-1-btn-standard};
+    --button-standard-text: #{$theme-1-btn-standard-text};
+    --button-del: #{$theme-1-btn-del};
+    --button-reset: #{$theme-1-btn-reset};
+    --button-equal: #{$theme-1-btn-equal};
+    --button-standard-shadow: #{$theme-1-btn-standard-shadow};
+    --button-del-shadow: #{$theme-1-btn-del-shadow};
+    --button-reset-shadow: #{$theme-1-btn-reset-shadow};
+    --button-equal-shadow: #{$theme-1-btn-equal-shadow};
+  }
+
+  &[data-theme="2"] {
+    --background: #{$theme-2-bg};
+    --screen: #{$theme-2-screen};
+    --screen-text-color: #{$theme-2-screen-text};
+    --calculator: #{$theme-2-calculator};
+    --button-standard: #{$theme-2-btn-standard};
+    --button-standard-text: #{$theme-2-btn-standard-text};
+    --button-del: #{$theme-2-btn-del};
+    --button-reset: #{$theme-2-btn-reset};
+    --button-equal: #{$theme-2-btn-equal};
+    --button-standard-shadow: #{$theme-2-btn-standard-shadow};
+    --button-del-shadow: #{$theme-2-btn-del-shadow};
+    --button-reset-shadow: #{$theme-2-btn-reset-shadow};
+    --button-equal-shadow: #{$theme-2-btn-equal-shadow};
+  }
+
+  &[data-theme="3"] {
+    --background: #{$theme-3-bg};
+    --screen: #{$theme-3-screen};
+    --screen-text-color: #{$theme-3-screen-text};
+    --calculator: #{$theme-3-calculator};
+    --button-standard: #{$theme-3-btn-standard};
+    --button-standard-text: #{$theme-3-btn-standard-text};
+    --button-del: #{$theme-3-btn-del};
+    --button-reset: #{$theme-3-btn-reset};
+    --button-equal: #{$theme-3-btn-equal};
+    --button-standard-shadow: #{$theme-3-btn-standard-shadow};
+    --button-del-shadow: #{$theme-3-btn-del-shadow};
+    --button-reset-shadow: #{$theme-3-btn-reset-shadow};
+    --button-equal-shadow: #{$theme-3-btn-equal-shadow};
+  }
+}
+
+body {
+  font-family: $ff-base;
+  font-size: $fs-base;
+  font-weight: $fw-400;
+  line-height: 2;
+  color: $body-txt-clr;
+  background-color: var(--background);
+  display: grid;
+  place-content: center;
+}
